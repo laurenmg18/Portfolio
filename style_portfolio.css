@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(76, 125, 96);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(8, 49, 58);
+}
+h1 {
+    font-size: 50pt;
+    margin: 0;
+    margin-left: 70px;
+}
+
+p {
+    font-size: 28pt;
+    margin-left: 70px;
+    margin-right: 650px;
+    margin-top: 15px;
+}
+h5 {
+    text-align: right;
+    font-size: 20pt;
+    margin-right: 70px;
+    margin-bottom: 60px;
+}
+a:link {color:rgb(8, 49, 58)}
+a:visited {color:rgb(8, 49, 58)}
+
+hr {width: 40%;margin-left: 70px;margin-right: 70px;
+    background-color: rgb(8, 49, 58);height: 4px;
+    border: none}
+
+img {
+    width: 250px;
+    height: 250px;
+    margin-left: 70px;
+}
+
+ul {
+    margin-left: 70px;
+    font-size: 18pt;
+}
+
+.container {
+    position: relative;
+    float: left;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 30px;
+    bottom: 0px;
+    left: 70px;
+    right: 0;
+    height: 400px;
+    width: 400px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:rgb(76, 125, 96);
+}
+
+.container:hover .overlay {
+    opacity: 0.6;
+}
+
+.text {
+    color:white;
+    opacity: 1;
+    font-size: 40px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
